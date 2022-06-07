@@ -9,7 +9,7 @@
 
                     <div class="flex items-center justify-between w-full md:w-auto">
                         <a href="{{ url('/') }}" class="text-4xl font-bold text-gray-800 dark:text-gray-200">
-                          Admin<span class="text-primary dark:text-gray-200">TW</span>
+                          Laravel Admin<span class="text-primary dark:text-gray-200">TW</span>
                         </a>
                     </div>
 
