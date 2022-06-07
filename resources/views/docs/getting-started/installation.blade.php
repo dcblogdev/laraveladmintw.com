@@ -20,10 +20,25 @@ php artisan admintw:install
 composer update
 </code></pre>
 
+<div class="alert alert-primary">
+<p>Ensure you've updated .env before migrating.</p>
+</div>
+
 <p>Migrate the database</p>
 
 <pre><code class="language-php">
 php artisan migrate
+</code></pre>
+
+<p>Seed the database</p>
+
+<pre><code class="language-php">
+php artisan db:seed
+</code></pre>
+
+<p>Link Storage to public</p>
+<pre><code class="language-php">
+php artisan storage:link
 </code></pre>
 
 <p>To compile your assets:</p>
