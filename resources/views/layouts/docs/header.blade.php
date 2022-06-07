@@ -62,7 +62,6 @@
                     <div class="px-2 pt-2 pb-3">
                         <a href="{{ url('/#features') }}" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Features</a>
                         <a href="{{ url('docs') }}" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Docs</a>
-                        <a href="https://demo.laraveladmintw.com" target="_blank" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Demo</a>
                     </div>
 
                 </div>
