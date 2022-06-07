@@ -6,7 +6,7 @@
     <div class="text-center">
 
         <a href="{{ url('/') }}">
-            <h2 class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+            <h2 class="mt-10 text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 <span class="dark:text-gray-100">FREE Laravel</span>
                 <span class="text-primary">Admin Theme</span>
             </h2>
