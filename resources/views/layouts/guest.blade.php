@@ -7,8 +7,9 @@
         <title>@yield('title') - {{ config('app.name', 'Laravel') }}</title>
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <script defer data-domain="laraveladmintw.com" src="https://plausible.io/js/plausible.js"></script>
     </head>
-    <body class="dark:bg-gray-900 text-gray-900">
+    <body class="text-gray-900 dark:bg-gray-900">
             {{ $slot }}
     </body>
 </html>
