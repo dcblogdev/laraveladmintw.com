@@ -21,7 +21,7 @@ composer update
 </code></pre>
 
 <div class="alert alert-primary">
-<p>Ensure you've updated .env before migrating.</p>
+<p class="text-white">Ensure you've updated .env before migrating.</p>
 </div>
 
 <p>Migrate the database</p>
