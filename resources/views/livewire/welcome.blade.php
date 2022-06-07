@@ -45,147 +45,103 @@
 
 <div class="mt-10 bg-white dark:bg-gray-900 dark:text-gray-200">
 
-    <div class="mx-auto max-w-7xl">
+    <div class="container">
+    <div class="px-8 py-4 mx-auto max-w-7xl">
 
-        <div class="grid grid-cols-3 gap-4">
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">2FA</h2>
-                <p class="text-gray-900 dark:text-gray-200">Add additional security to your account using two-factor authentication.</p>
-                <p class="text-gray-900 dark:text-gray-200"><b>Why do I need this?</b></p>
-                <p class="text-gray-900 dark:text-gray-200">Passwords can get stolen – especially if you use the same password for multiple sites. Adding Two-Step Verification means that even if your password gets stolen, your account will remain secure.</p>
-            </div>
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">2FA</h2>
 
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/2fa-setup-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/2fa-setup.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
+        <p class="text-gray-900 dark:text-gray-200">Add additional security to your account using two-factor authentication.</p>
+        <p class="text-gray-900 dark:text-gray-200"><b>Why do I need this?</b></p>
+        <p class="text-gray-900 dark:text-gray-200">Passwords can get stolen – especially if you use the same password for multiple sites. Adding Two-Step Verification means that even if your password gets stolen, your account will remain secure.</p>
 
+        <picture>
+            <source srcset="{{ url('images/2fa-setup-dark.png') }}" media="(prefers-color-scheme: dark)">
+            <img class="border border-white" src="{{ url('images/2fa-setup.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
+
+
+
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Dashboard</h2>
+        <p class="text-gray-900 dark:text-gray-200">The dashboard contains a single card ready to be customised as needed.</p>
+
+        <picture>
+            <source srcset="{{ url('images/dashboard-dark.png') }}" media="(prefers-color-scheme: dark)">
+            <img class="border border-white" src="{{ url('images/dashboard.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
+
+
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Audit Trails</h2>
+
+        <p class="text-gray-900 dark:text-gray-200">Record ever action, then review all actions in the audit trail.</p>
+        <p class="text-gray-900 dark:text-gray-200">Filter by user, action, type or a date range.</p>
+
+        <picture>
+            <source srcset="{{ url('images/audit-trails-dark.png') }}" media="(prefers-color-scheme: dark)">
+            <img class="border border-white" src="{{ url('images/audit-trails.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
+
+
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Sent Emails</h2>
+        <p class="text-gray-900 dark:text-gray-200">All emails sent are recorded and can be viewed and filtered by To, CC, BCC, Subject and created date range.</p>
+
+        <picture>
+            <source srcset="{{ url('images/sent-emails-dark.png') }}" media="(prefers-color-scheme: dark)">
+            <img class="border border-white" src="{{ url('images/sent-emails.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
+
+
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Settings</h2>
+        <p class="text-gray-900 dark:text-gray-200">From the settings change the following:</p>
+        <ul class="pl-5">
+            <li class="pt-5 list-disc">Application Name</li>
+            <li class="pt-5 list-disc">Force 2FA for all users</li>
+            <li class="pt-5 list-disc">Change application logo for light and dark mode</li>
+            <li class="pt-5 list-disc">Change login logo for light and dark mode</li>
+            <li class="pt-5 list-disc">Lock application down to set IP addresses</li>
+        </ul>
+
+
+        <div class="mt-5">
+            <picture>
+                <source srcset="{{ url('images/settings-dark.png') }}" media="(prefers-color-scheme: dark)">
+                <img class="border border-white" src="{{ url('images/settings.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+            </picture>
         </div>
 
-        <div class="grid grid-cols-3 gap-4 mt-20">
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Roles</h2>
 
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/dashboard-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/dashboard.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
+        <p class="text-gray-900 dark:text-gray-200">Laravel AdminTW comes with role based permissions.</p>
+        <p class="text-gray-900 dark:text-gray-200">Set what users can and cannot do.</p>
+        <p class="text-gray-900 dark:text-gray-200">Assign multiple roles to a user.</p>
 
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Dashboard</h2>
-                <p class="text-gray-900 dark:text-gray-200">The dashboard contains a single card ready to be customised as needed.</p>
-            </div>
+        <picture>
+            <source srcset="{{ url('images/roles-dark.png') }}" media="(prefers-color-scheme: dark)">
+            <img class="border border-white" src="{{ url('images/roles.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
 
-        </div>
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Users</h2>
 
-        <div class="grid grid-cols-3 gap-4 mt-20">
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Audit Trails</h2>
-                <p class="text-gray-900 dark:text-gray-200">Record ever action, then review all actions in the audit trail.</p>
-                <p class="text-gray-900 dark:text-gray-200">Filter by user, action, type or a date range.</p>
-            </div>
+        <p class="text-gray-900 dark:text-gray-200">Laravel AdminTW comes with multiple users support, you can add as many users as needed.</p>
+        <p class="text-gray-900 dark:text-gray-200">Users can be invited to via an email invitation.</p>
+        <p class="text-gray-900 dark:text-gray-200">Users have their own profile which shows their activity.</p>
+        <p class="text-gray-900 dark:text-gray-200">Users can be locked down to set IP addresses. Meaning they would only be able to login from those IP addresses listed in the settings.</p>
 
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/audit-trails-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/audit-trails.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
+        <picture>
+            <source srcset="{{ url('images/users-dark.png') }}" media="(prefers-color-scheme: dark)">
+            <img class="border border-white" src="{{ url('images/users.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
 
-        </div>
 
-        <div class="grid grid-cols-3 gap-4 mt-20">
+        <h2 class="mt-10 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Tests</h2>
+        <p class="text-gray-900 dark:text-gray-200">Laravel AdminTW comes with a suite of tests using PestPHP.</p>
+        <p class="text-gray-900 dark:text-gray-200">There are 74 tests out the box that ensured the application works as expected.</p>
 
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/sent-emails-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/sent-emails.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
+        <picture>
+            <img class="border border-white" src="{{ url('images/tests.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
+        </picture>
 
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Sent Emails</h2>
-                <p class="text-gray-900 dark:text-gray-200">All emails sent are recorded and can be viewed and filtered by To, CC, BCC, Subject and created date range.</p>
-            </div>
 
-        </div>
-
-        <div class="grid grid-cols-3 gap-4 mt-20">
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Settings</h2>
-                <p class="text-gray-900 dark:text-gray-200">From the settings change the following:</p>
-                <ul class="pl-5">
-                    <li class="pt-5 list-disc">Application Name</li>
-                    <li class="pt-5 list-disc">Force 2FA for all users</li>
-                    <li class="pt-5 list-disc">Change application logo for light and dark mode</li>
-                    <li class="pt-5 list-disc">Change login logo for light and dark mode</li>
-                    <li class="pt-5 list-disc">Lock application down to set IP addresses</li>
-                </ul>
-            </div>
-
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/settings-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/settings.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
-
-        </div>
-
-        <div class="grid grid-cols-3 gap-4 mt-20">
-
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/roles-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/roles.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
-
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Roles</h2>
-                <p class="text-gray-900 dark:text-gray-200">Laravel AdminTW comes with role based permissions.</p>
-                <p class="text-gray-900 dark:text-gray-200">Set what users can and cannot do.</p>
-                <p class="text-gray-900 dark:text-gray-200">Assign multiple roles to a user.</p>
-            </div>
-
-        </div>
-
-        <div class="grid grid-cols-3 gap-4 mt-20">
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Users</h2>
-                <p class="text-gray-900 dark:text-gray-200">Laravel AdminTW comes with multiple users support, you can add as many users as needed.</p>
-                <p class="text-gray-900 dark:text-gray-200">Users can be invited to via an email invitation.</p>
-                <p class="text-gray-900 dark:text-gray-200">Users have their own profile which shows their activity.</p>
-                <p class="text-gray-900 dark:text-gray-200">Users can be locked down to set IP addresses. Meaning they would only be able to login from those IP addresses listed in the settings.</p>
-            </div>
-
-            <div class="col-span-2">
-                <picture>
-                    <source srcset="{{ url('images/users-dark.png') }}" media="(prefers-color-scheme: dark)">
-                    <img class="border border-white" src="{{ url('images/users.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
-
-        </div>
-
-        <div class="grid grid-cols-3 gap-4 mt-20">
-
-            <div class="col-span-2">
-                <picture>
-                    <img class="border border-white" src="{{ url('images/tests.png') }}" alt="Laravel Admin Two Factor Authentication Setup">
-                </picture>
-            </div>
-
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-200">Tests</h2>
-                <p class="text-gray-900 dark:text-gray-200">Laravel AdminTW comes with a suite of tests using PestPHP.</p>
-                <p class="text-gray-900 dark:text-gray-200">There are 74 tests out the box that ensured the application works as expected.</p>
-            </div>
-
-        </div>
-
+    </div>
     </div>
 
     <div class="flex justify-between p-4 mx-auto max-w-7xl">
