@@ -10,10 +10,10 @@
 
 		<div class="flex justify-between">
 			<a href="{{ route('password.request') }}">Forgot your password?</a>
-			<a href="{{ route('register') }}">Register</a>
+			{{-- <a href="{{ route('register') }}">Register</a> --}}
 		</div>
 
-		<p><button type="submit" class="btn btn-primary w-full justify-center">Login</button></p>
+		<p><button type="submit" class="justify-center w-full btn btn-primary">Login</button></p>
 
 	</x-form>
 
