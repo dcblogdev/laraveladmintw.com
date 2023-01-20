@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @stack('styles')
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script defer data-domain="laraveladmintw.com" src="https://plausible.io/js/plausible.js"></script>
+    <script src="https://cdn.usefathom.com/script.js" data-site="PLJPRXLJ" defer></script>
     @stack('scripts')
     <livewire:styles/>
 </head>
