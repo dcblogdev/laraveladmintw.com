@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Help Menu')
     <h1>Help Menu</h1>
 
@@ -16,12 +16,10 @@ declare(strict_types=1);
 
 namespace App\Http\Livewire\Admin;
 
-use App\Http\Livewire\Base;
+use Livewire\Component;
 use Illuminate\Contracts\View\View;
 
-use function view;
-
-class HelpMenu extends Base
+class HelpMenu extends Component
 {
     public function render(): View
     {
@@ -74,4 +72,4 @@ class HelpMenu extends Base
     ') @endphp
     </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

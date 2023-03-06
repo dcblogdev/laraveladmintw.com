@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Layouts')
     <h1>Layouts</h1>
 
@@ -217,4 +217,4 @@
     </code></pre>
     this allows it to be used in a completly unstylled manor. It containts no markup at all. Perfect if you want to output say XML or JSON.</p>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
     @section('title', 'Docs - Helpers')
     <h1>Helpers</h1>
 
@@ -213,4 +213,4 @@
        ') @endphp
     </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

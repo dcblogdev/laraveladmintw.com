@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
     @section('title', 'Docs - Configuration')
     <h1>Configuration</h1>
 
@@ -22,7 +22,7 @@
 
     <div class="alert alert-primary">
         <p class="text-white">To change this edit <code class="language-php">tailwind.config.js</code></p>
-        <p class="text-white">Make sure you run <code class="language-php">@php echo htmlentities('npm run dev')@endphp</code> to rebuild the CSS file after making any changes.</p>
+        <p class="text-white">Make sure you run <code class="language-php">@php echo htmlentities('npm run build')@endphp</code> to rebuild the CSS file after making any changes.</p>
     </div>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

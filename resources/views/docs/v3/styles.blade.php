@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Styles')
     <h1>Styles</h1>
 
@@ -236,4 +236,4 @@
         <p class="text-white">Make sure you run <code class="language-php">@php echo htmlentities('npm run dev')@endphp</code> to rebuild the CSS file after making any changes.</p>
     </div>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

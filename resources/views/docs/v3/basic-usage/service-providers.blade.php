@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Service Providers')
     <h1>Service Providers</h1>
 
@@ -23,18 +23,6 @@
     if (config(\'app.env\') !== \'local\') {
         $url->forceScheme(\'https\');
     }
-    ') @endphp
-    </code></pre>
-
-    <br>
-    <h3>Record sent emails</h3>
-    <p>When an email is sent the following events first to save a copy of the email into a database. The sent emails can be seen in the settings menu.</p>
-    <pre><code class="language-php">
-    @php echo htmlentities('
-    Event::listen(
-        MessageSending::class,
-        EmailLogger::class
-    );
     ') @endphp
     </code></pre>
 
@@ -84,15 +72,4 @@
     ') @endphp
     </code></pre>
 
-
-    <h2>Route Service Provider</h2>
-
-    <p>The one change from a default laravel install is to change HOME constant to /admin</p>
-
-    <pre><code class="language-php">
-    @php echo htmlentities("
-    public const HOME = '/admin';
-    ") @endphp
-    </code></pre>
-
-</x-docs-v2-layout>
+</x-docs-v3-layout>

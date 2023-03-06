@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Roles and Permissions')
 <h1>Roles and Permissions</h1>
 
@@ -20,7 +20,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Roles\Role;
+use App\Models\Role;
 
 class RolesDatabaseSeeder extends Seeder
 {
@@ -43,9 +43,9 @@ class RolesDatabaseSeeder extends Seeder
 Check in an if statement weather the current user has a permission, the permission will be checked against all roles the user has.</p>
 <pre><code class="language-php">
 @php echo htmlentities('
-@if(can(\'view_dashboard\'))
+@can(\'view_dashboard\')
     <x-nav.link route="admin" icon="fas fa-home">Dashboard</x-nav.link>
-@endif
+@endcan
 ') @endphp
 </code></pre>
 
@@ -120,8 +120,4 @@ Make sure there is always a user with Admin access. There is validation to help 
 
 <p><img src="{{ url('images/docs/roles-user.png') }}" alt="User Roles"></p>
 
-
-
-
-
-</x-docs-v2-layout>
+</x-docs-v3-layout>

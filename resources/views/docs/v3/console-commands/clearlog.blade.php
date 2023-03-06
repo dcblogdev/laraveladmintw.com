@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Clear Log')
     <h1>Clear Log</h1>
 
@@ -12,4 +12,4 @@
     </pre>
 
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

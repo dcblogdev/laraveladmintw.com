@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Installation')
 <h1>Installation</h1>
 
@@ -53,4 +53,4 @@ npm install && npm run dev
 vendor/bin/pest
 </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

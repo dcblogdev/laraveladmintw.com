@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
     @section('title', 'Docs - Authentication')
     <h1>Authentication</h1>
 
@@ -21,11 +21,7 @@
         \'email\'           => \'required|email|unique:users,email\',
         \'password\'        => [
             \'required\',
-            Password::min(8)
-                ->mixedCase()
-                ->letters()
-                ->numbers()
-                ->uncompromised()
+            Password::default()
         ],
         \'confirmPassword\' => \'required|same:password\'
     ]
@@ -66,14 +62,7 @@
     <p>Give the user a role of Admin, additional users should be invited from the users page.</p>
 
     <pre><code class="language-php">
-    @php echo htmlentities('
-        $role = Role::where(\'label\', \'admin\')->first();
-
-        RoleUser::create([
-            \'role_id\' => $role->id,
-            \'user_id\' => $user->id
-        ]);
-    ') @endphp
+    @php echo htmlentities("$user->assignRole('admin');") @endphp
     </code></pre>
 
     <p>Create an audit log of the register event by using the helper add_user_log</p>
@@ -89,7 +78,7 @@
 
         Auth::loginUsingId($user->id);
 
-        return redirect(\'admin\');
+        return redirect(route(\'dashboard\');
     ') @endphp
     </code></pre>
 
@@ -177,4 +166,4 @@
     ') @endphp
     </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Global Search')
 <h1>Global Search</h1>
 
@@ -16,14 +16,10 @@ declare(strict_types=1);
 
 namespace App\Http\Livewire\Admin;
 
-use App\Http\Livewire\Base;
+use Livewire\Component;
 use App\Models\User;
-use Illuminate\Contracts\View\View;
 
-use function add_user_log;
-use function view;
-
-class Search extends Base
+class Search extends Component
 {
     public string $query         = \'\';
     public array  $models        = [
@@ -100,4 +96,4 @@ public function route($id): string
 ') @endphp
 </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Users')
 <h1>Users</h1>
 
@@ -28,4 +28,4 @@
 <p><img src="{{ url('images/docs/roles-user.png') }}" alt="User Roles"></p>
 
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

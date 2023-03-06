@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Notifications')
     <h1>Notifications</h1>
 
@@ -18,15 +18,10 @@ declare(strict_types=1);
 
 namespace App\Http\Livewire\Admin;
 
-use App\Http\Livewire\Base;
+use Livewire\Component;
 use App\Models\Notification;
-use Illuminate\Contracts\View\View;
 
-use function auth;
-use function now;
-use function view;
-
-class NotificationsMenu extends Base
+class NotificationsMenu extends Component
 {
     public $notifications;
     public $unseenCount = 0;
@@ -126,4 +121,4 @@ App\Models\Notification::create([
 
 <p><img src="{{ url('images/docs/notification-sample.png') }}" alt="Notifications example"></p>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

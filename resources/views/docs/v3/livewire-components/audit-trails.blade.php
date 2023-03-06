@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Audit Trails')
     <h1>Audit Trails</h1>
 
@@ -38,4 +38,4 @@
     ') @endphp
     </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

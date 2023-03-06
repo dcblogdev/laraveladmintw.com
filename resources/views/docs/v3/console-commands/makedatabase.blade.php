@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Make Database')
     <h1>Make Database</h1>
 
@@ -20,4 +20,4 @@
         </code>
     </pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

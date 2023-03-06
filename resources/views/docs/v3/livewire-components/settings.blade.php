@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Settings')
 <h1>Settings</h1>
 
@@ -14,4 +14,4 @@
 <p>White list IP's that can login to the system, by default no user has office login only. When that is set on a users profile they can only access the system from these listed IP addresses. Make sure you have an IP address set before turning this on for all users.</p>
 <p><img src="{{ url('images/docs/settings-ips.png') }}" alt="IP Lockdown"></p>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

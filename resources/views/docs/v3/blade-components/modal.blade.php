@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Modal')
     <h1>Modal</h1>
 
@@ -90,4 +90,4 @@
         </x-tabs.div>
     </x-tab>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

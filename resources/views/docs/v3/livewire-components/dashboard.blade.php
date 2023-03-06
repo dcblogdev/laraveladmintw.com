@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Dashboard')
     <h1>Dashboard</h1>
 
@@ -9,17 +9,13 @@
     <?php
     namespace App\Http\Livewire\Admin;
 
-    use App\Http\Livewire\Base;
-    use Illuminate\Contracts\View\View;
+    use Livewire\Component;
 
-    use function abort_if_cannot;
-    use function view;
-
-    class Dashboard extends Base
+    class Dashboard extends Component
     {
-        public function render(): View
+        public function render()
         {
-            abort_if_cannot(\'view_dashboard\');
+           abort_unless(auth()->user()->can(\'view_dashboard\'), 403);
 
             return view(\'livewire.admin.dashboard\');
         }
@@ -45,4 +41,4 @@
     ') @endphp
     </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

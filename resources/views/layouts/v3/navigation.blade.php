@@ -48,7 +48,6 @@
     <x-docnav.group-item route="docs.v3.livewire-components.global-search">Global Search</x-docnav.group-item>
     <x-docnav.group-item route="docs.v3.livewire-components.roles">Roles & Permissions</x-docnav.group-item>
     <x-docnav.group-item route="docs.v3.livewire-components.settings">Settings</x-docnav.group-item>
-    <x-docnav.group-item route="docs.v3.livewire-components.sent-emails">Sent Emails</x-docnav.group-item>
     <x-docnav.group-item route="docs.v3.livewire-components.user-menu">User Menu</x-docnav.group-item>
     <x-docnav.group-item route="docs.v3.livewire-components.users">Users</x-docnav.group-item>
 </x-docnav.group>

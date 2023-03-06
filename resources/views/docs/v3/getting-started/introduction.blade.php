@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
     @section('title', 'Docs - Introduction')
 
     <h1>Introduction</h1>
@@ -7,4 +7,4 @@
     <p>Laravel AdminTW supports both light and dark mode based on the users OS.</p>
     <p>Provided are blade and Laravel Livewire components for common layout / UI elements and a complete test suite (Pest PHP).</p>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - 2col')
     <h1>2 Col</h1>
 
@@ -43,4 +43,4 @@
         </x-tabs.div>
     </x-tab>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

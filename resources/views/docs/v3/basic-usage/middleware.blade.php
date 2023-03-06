@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Middleware')
     <h1>Middleware</h1>
 
@@ -31,4 +31,4 @@
     ") @endphp
     </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

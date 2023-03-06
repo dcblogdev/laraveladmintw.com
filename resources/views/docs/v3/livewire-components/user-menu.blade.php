@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - User Menu')
     <h1>User Menu</h1>
 
@@ -16,12 +16,9 @@ declare(strict_types=1);
 
 namespace App\Http\Livewire\Admin\Users;
 
-use App\Http\Livewire\Base;
-use Illuminate\Contracts\View\View;
+use Livewire\Component;
 
-use function view;
-
-class UserMenu extends Base
+class UserMenu extends Component
 {
     protected $listeners = [\'refreshUserMenu\' => \'$refresh\'];
 
@@ -56,13 +53,13 @@ class UserMenu extends Base
             class="absolute right-0 w-48 mt-1 mr-3 origin-top-right">
             <div class="relative z-30 bg-white border border-gray-100 shadow-xs rounded-b-md dark:bg-gray-700">
 
-                @if (can(\'view_users_profiles\'))
+                @can(\'view_users_profiles\')
                     <x-dropdown-link :href="route(\'admin.users.show\', [\'user\' => user()->id])">View Profile</x-dropdown-link>
-                @endif
+                @endcan
 
-                @if (can(\'edit_own_account\'))
+                @can(\'edit_own_account\')
                     <x-dropdown-link :href="route(\'admin.users.edit\', [\'user\' => user()->id])">Edit Account</x-dropdown-link>
-                @endif
+                @endcan
 
                 <hr>
 
@@ -82,4 +79,4 @@ class UserMenu extends Base
 ') @endphp
 </code></pre>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>

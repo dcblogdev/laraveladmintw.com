@@ -1,4 +1,4 @@
-<x-docs-v2-layout>
+<x-docs-v3-layout>
 @section('title', 'Docs - Button')
     <h1>Button</h1>
 
@@ -31,4 +31,4 @@
         </x-tabs.div>
     </x-tab>
 
-</x-docs-v2-layout>
+</x-docs-v3-layout>
