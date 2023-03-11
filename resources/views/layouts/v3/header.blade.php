@@ -5,7 +5,7 @@
         <div class="max-w-screen-xl px-4 py-4 mx-auto border-b-2 sm:px-6 border-gray-50 dark:border-gray-800">
 
             <nav class="relative flex items-center justify-between sm:h-10 md:justify-center">
-                <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+                <div class="flex items-center flex-1 md:inset-y-0 md:left-0">
 
                     <div class="flex items-center justify-between w-full md:w-auto">
                         <a href="{{ url('/') }}" class="text-4xl font-bold text-gray-800 dark:text-gray-200">
@@ -23,8 +23,31 @@
                 </div>
 
                 <div class="hidden md:block">
-                    <a href="{{ url('/#features') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400">Features</a>
-                    <a href="{{ url('v3/docs') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400">Docs</a>
+                    <div class="flex">
+                        <a href="{{ url('/#features') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400">Features</a>
+                        <a href="{{ url('v3/docs') }}" class="ml-10 font-medium text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-400">Docs</a>
+
+                        <div x-data="{ isOpen: false }">
+                            <div>
+                                <button @click="isOpen = !isOpen" class="text-gray-900 ml-10 focus:outline-none">
+                                    Version
+                                </button>
+                            </div>
+
+                            <div
+                                    x-show.transition="isOpen"
+                                    @click.away="isOpen = false"
+                                    class="origin-top-right absolute right-0 mt-1 mr-3 w-10">
+                                <div class="relative z-30 rounded-b-md bg-white border border-gray-100 dark:bg-gray-700 shadow-xs">
+                                    <p><a href="/v3">V3</a></p>
+                                    <p><a href="/v2">V2</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
 
             </nav>
@@ -62,6 +85,10 @@
                     <div class="px-2 pt-2 pb-3">
                         <a href="{{ url('/#features') }}" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Features</a>
                         <a href="{{ url('v3/docs') }}" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Docs</a>
+                        <x-dropdown label="Version">
+                            <x-dropdown-link href="/v3">V3</x-dropdown-link>
+                            <x-dropdown-link href="/v2">V2</x-dropdown-link>
+                        </x-dropdown>
                     </div>
 
                 </div>

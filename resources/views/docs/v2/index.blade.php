@@ -19,6 +19,7 @@
 
             <p class="mt-5">
                 <a href="{{ url('v2/docs') }}" class="px-4 py-4 text-xl text-gray-100 rounded-md bg-primary">Get Started</a>
+                <a href="https://github.com/dcblogdev/laravel-admintw" class="px-4 py-4 text-xl text-gray-100 rounded-md bg-primary">GitHub</a>
             </p>
 
         </div>
