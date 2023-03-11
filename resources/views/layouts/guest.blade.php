@@ -8,7 +8,7 @@
         <title>@yield('title') - {{ config('app.name', 'Laravel') }}</title>
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <script src="{{ mix('js/app.js') }}" defer></script>
-        <script src="https://cdn.usefathom.com/script.js" data-site="PLJPRXLJ" defer></script>
+        <script src="https://cdn.usefathom.com/script.js" data-site="RERGCDUF" defer></script>
     </head>
     <body class="text-gray-900 dark:bg-gray-900">
             {{ $slot }}
