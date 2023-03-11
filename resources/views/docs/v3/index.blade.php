@@ -1,5 +1,5 @@
 <x-guest-layout>
-    @section('title', 'Free Laravel TALL Theme')
+    @section('title', 'Free Laravel TALL Theme | Laravel Starter Kit')
     @include('layouts.v3.header')
 
     <main class="max-w-screen-xl px-4 mx-auto mb-10 sm:mt-12 sm:px-6 md:mt-15">
@@ -13,7 +13,7 @@
             </a>
 
             <p class="max-w-md mx-auto mt-3 text-base text-gray-700 dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                <span class="block text-xl">AdminTW is Laravel Starter Kit</span>
+                <span class="block text-xl">AdminTW is a Laravel Starter Kit</span>
                 <span class="mt-2 block text-xl">Built on Laravel TALL stack</span>
                 <span class="block text-sm">(Tailwind, Alpine.js, Laravel, and Livewire)</span>
             </p>
