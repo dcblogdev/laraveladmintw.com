@@ -62,7 +62,7 @@
     <p>Give the user a role of Admin, additional users should be invited from the users page.</p>
 
     <pre><code class="language-php">
-    @php echo htmlentities("$user->assignRole('admin');") @endphp
+    @php echo htmlentities('$user->assignRole(\'admin\');') @endphp
     </code></pre>
 
     <p>Create an audit log of the register event by using the helper add_user_log</p>
