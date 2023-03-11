@@ -13,7 +13,8 @@
             </a>
 
             <p class="max-w-md mx-auto mt-3 text-base text-gray-700 dark:text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                <span class="block text-xl">Built on Laravel TALL stack</span>
+                <span class="block text-xl">AdminTW is Laravel Starter Kit</span>
+                <span class="mt-2 block text-xl">Built on Laravel TALL stack</span>
                 <span class="block text-sm">(Tailwind, Alpine.js, Laravel, and Livewire)</span>
             </p>
 
