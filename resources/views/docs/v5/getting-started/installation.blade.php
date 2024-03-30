@@ -6,6 +6,18 @@
     From version 5 AdminTW is a complete project rather than a package. If you are looking for the package version, please use version 4.
 </div>
 
+<p>Clone the repository:</p>
+
+<pre><code class="language-php">
+git clone git@github.com:dcblogdev/laravel-admintw.git projectName
+</code></pre>
+
+Copy the `.env.example` file to `.env`:
+
+<pre><code class="language-php">
+cp .env.example .env
+</code></pre>
+
 <p>Set database and emails settings inside `.env`</p>
 
 <p>Install composer using the command:</p>

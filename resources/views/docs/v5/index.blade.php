@@ -1,5 +1,5 @@
 <x-guest-layout>
-    @section('title', 'Free Laravel TALL Theme | Laravel Starter Kit')
+    @section('title', 'Laravel Starter Kit | Laravel TALL Theme')
     @include('layouts.v5.header')
 
     <main class="max-w-screen-xl px-4 mx-auto mb-10 sm:mt-12 sm:px-6 md:mt-15">
