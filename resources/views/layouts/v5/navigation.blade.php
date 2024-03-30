@@ -10,7 +10,6 @@
 <x-docnav.group label="Getting Started" route="docs.v5.introduction" open="true">
     <x-docnav.group-item route="docs.v5.introduction">Introduction</x-docnav.group-item>
     <x-docnav.group-item route="docs.v5.requirements">Requirements</x-docnav.group-item>
-    <x-docnav.group-item route="docs.v5.changelog">Changelog</x-docnav.group-item>
     <x-docnav.group-item route="docs.v5.installation">Installation</x-docnav.group-item>
     <x-docnav.group-item route="docs.v5.questions">Questions and Issues</x-docnav.group-item>
 </x-docnav.group>

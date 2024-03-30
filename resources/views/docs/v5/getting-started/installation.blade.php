@@ -2,49 +2,34 @@
 @section('title', 'Docs - Installation')
 <h1>Installation</h1>
 
-<p>Install a fresh copy of Laravel then use require this package with composer:</p>
+<div class="alert alert-primary">
+    From version 5 AdminTW is a complete project rather than a package. If you are looking for the package version, please use version 4.
+</div>
 
-<pre><code class="language-php">
-composer require dcblogdev/laravel-admintw
-</code></pre>
+<p>Set database and emails settings inside `.env`</p>
 
-<p>Then install using the command:</p>
+<p>Install composer using the command:</p>
 
 <pre><code class="language-php">
 php artisan admintw:install
 </code></pre>
 
-<p>Update composer using the command:</p>
+<p>Business the assets:</p>
 
 <pre><code class="language-php">
-composer update
+npm install && npm run build
 </code></pre>
 
-<div class="alert alert-primary">
-<p class="text-white">Ensure you've updated .env before migrating.</p>
-</div>
+<p>Link images to storage:</p>
 
-<p>Migrate the database</p>
-
-<pre><code class="language-php">
-php artisan migrate
-</code></pre>
-
-<p>Seed the database</p>
-
-<pre><code class="language-php">
-php artisan db:seed
-</code></pre>
-
-<p>Link Storage to public</p>
 <pre><code class="language-php">
 php artisan storage:link
 </code></pre>
 
-<p>To compile your assets:</p>
+<p>Create the database tables and populate them:</p>
 
 <pre><code class="language-php">
-npm install && npm run dev
+php artisan migrate --seed
 </code></pre>
 
 <p>Run the tests by running PestPHP</p>

@@ -2,7 +2,7 @@
     @section('title', 'Docs - Requirements')
     <h1>Requirements</h1>
 
-    <p>The Laravel AdminTW package requires PHP 8.1.</p>
-    <p>The Laravel AdminTW package also requires Laravel 10.0.</p>
+    <p>The Laravel AdminTW requires PHP 8.2.</p>
+    <p>The Laravel AdminTW also requires Laravel 11.</p>
 
 </x-docs-v5-layout>
