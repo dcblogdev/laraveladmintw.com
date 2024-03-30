@@ -11,6 +11,18 @@
         <script src="https://cdn.usefathom.com/script.js" data-site="RERGCDUF" defer></script>
     </head>
     <body class="text-gray-900 dark:bg-gray-900">
+
+    <div id="ab-full-width-with-dismiss-button-on-blue-bg" class="hs-removing:-translate-y-full bg-blue-600">
+  <div class="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 mx-auto">
+    <div class="flex">
+      <p class="text-white text-sm m-0">
+        If you find this website useful, your sponsorship would greatly support its ongoing development and maintenance.
+          <a class="underline text-white font-medium" href="https://github.com/sponsors/dcblogdev" target="_blank">Learn more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
             {{ $slot }}
     </body>
 </html>
