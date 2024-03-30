@@ -39,6 +39,8 @@
                                     @click.away="isOpen = false"
                                     class="origin-top-right absolute right-0 mt-1 mr-3 w-10">
                                 <div class="relative z-30 rounded-b-md bg-white border border-gray-100 dark:bg-gray-700 shadow-xs">
+                                    <p><a href="/v5">V5</a></p>
+                                    <p><a href="/v4">V4</a></p>
                                     <p><a href="/v3">V3</a></p>
                                     <p><a href="/v2">V2</a></p>
                                 </div>
@@ -86,6 +88,8 @@
                         <a href="{{ url('/#features') }}" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Features</a>
                         <a href="{{ url('v3/docs') }}" class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50 dark:text-gray-100 dark:hover:bg-gray-500 dark:hover:text-gray-200" role="menuitem">Docs</a>
                         <x-dropdown label="Version">
+                            <x-dropdown-link href="/v5">V5</x-dropdown-link>
+                            <x-dropdown-link href="/v4">V4</x-dropdown-link>
                             <x-dropdown-link href="/v3">V3</x-dropdown-link>
                             <x-dropdown-link href="/v2">V2</x-dropdown-link>
                         </x-dropdown>
