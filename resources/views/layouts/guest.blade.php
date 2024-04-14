@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <script src="{{ mix('js/app.js') }}" defer></script>
         <script src="https://cdn.usefathom.com/script.js" data-site="RERGCDUF" defer></script>
+        <script defer type="text/javascript" src="https://api.pirsch.io/pirsch-extended.js" id="pirschextendedjs" data-code="d7qZofJeTbq1ClJdCcqlcbp4cK6O3Agu"></script>
     </head>
     <body class="text-gray-900 dark:bg-gray-900">
 

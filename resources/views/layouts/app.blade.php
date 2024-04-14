@@ -9,6 +9,7 @@
     @stack('styles')
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://cdn.usefathom.com/script.js" data-site="PLJPRXLJ" defer></script>
+    <script defer type="text/javascript" src="https://api.pirsch.io/pirsch-extended.js" id="pirschextendedjs" data-code="d7qZofJeTbq1ClJdCcqlcbp4cK6O3Agu"></script>
     @stack('scripts')
     <livewire:styles/>
 </head>
