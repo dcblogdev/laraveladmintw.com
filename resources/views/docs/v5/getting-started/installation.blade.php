@@ -12,11 +12,24 @@
 git clone git@github.com:dcblogdev/laravel-admintw.git projectName
 </code></pre>
 
-Copy the `.env.example` file to `.env`:
+<p>Remove GIT history:</p>
+
+<pre><code class="language-php">
+rm -rf .git
+</code></pre>
+
+<p>Optionally, Initalise GIT</p>
+<pre><code class="language-php">
+git init
+</code></pre>
+
+<p>Copy the `.env.example` file to `.env`:</p>
 
 <pre><code class="language-php">
 cp .env.example .env
 </code></pre>
+
+<p>Open `.env` in your editor.</p>
 
 <p>Set database and emails settings inside `.env`</p>
 
