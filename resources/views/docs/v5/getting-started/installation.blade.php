@@ -29,9 +29,9 @@ git init
 cp .env.example .env
 </code></pre>
 
-<p>Open `.env` in your editor.</p>
+<p>Open .env in your editor.</p>
 
-<p>Set database and emails settings inside `.env`</p>
+<p>Set database and emails settings inside .env</p>
 
 <p>Install composer using the command:</p>
 
