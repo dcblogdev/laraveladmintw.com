@@ -23,10 +23,10 @@ cp .env.example .env
 <p>Install composer using the command:</p>
 
 <pre><code class="language-php">
-php artisan admintw:install
+composer install
 </code></pre>
 
-<p>Business the assets:</p>
+<p>Build the assets:</p>
 
 <pre><code class="language-php">
 npm install && npm run build
