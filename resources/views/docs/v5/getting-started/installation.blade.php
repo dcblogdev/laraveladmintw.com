@@ -23,7 +23,7 @@ rm -rf .git
 git init
 </code></pre>
 
-<p>Copy the `.env.example` file to `.env`:</p>
+<p>Copy the .env.example file to .env:</p>
 
 <pre><code class="language-php">
 cp .env.example .env
