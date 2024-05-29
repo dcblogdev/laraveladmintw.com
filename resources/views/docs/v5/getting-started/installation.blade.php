@@ -45,6 +45,12 @@ composer install
 npm install && npm run build
 </code></pre>
 
+<p>Generate app key:</p>
+
+<pre><code class="language-php">
+php artisan key:generate
+</code></pre>
+
 <p>Link images to storage:</p>
 
 <pre><code class="language-php">
